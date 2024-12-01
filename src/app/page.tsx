@@ -56,7 +56,7 @@ export default function Invoice() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/generate",
+        "https://test.ladent.id/api/generate",
         { invoice_items: formData }
       );
 
